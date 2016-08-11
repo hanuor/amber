@@ -30,14 +30,12 @@
 #####You can learn more about entity linking, visit this link: https://en.wikipedia.org/wiki/Entity_linking 
 ------    
 #Download    
-###Using Gradle:
-    repositories {
-    mavenCentral() // jcenter() works as well because it pulls from Maven Central
-    }
-    dependencies {
-    compile 'com.hanuor.onyx:onyx:1.0.0'    
-    }
+###Using Gradle, under the dependencies section:       
 
+
+    compile 'com.hanuor.onyx:onyx:1.0.0'    
+    
+	
 
 ### or Using Maven:      
 

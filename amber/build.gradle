@@ -1,5 +1,27 @@
 apply plugin: 'com.android.library'
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'amber'
 
+    publishedGroupId = 'com.github.hanuor'
+    libraryName = 'amber'
+    artifact = 'amber'
+
+    libraryDescription = 'Entity Linking Intelligence Service for android'
+
+    siteUrl = 'https://github.com/hanuor/amber'
+    gitUrl = 'https://github.com/hanuor/amber.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'hanuor'
+    developerName = 'Shantanu Johri'
+    developerEmail = 'hanuortech@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 android {
     compileSdkVersion 24
     buildToolsVersion "23.0.3"
@@ -27,3 +49,6 @@ dependencies {
     }
     compile 'org.apache.httpcomponents:httpclient-android:4.3.5'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
