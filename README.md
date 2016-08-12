@@ -75,7 +75,7 @@ Pretty simple -
 ------
 ###Compatibility
 
-**Minimum Android SDK**: Onyx requires a minimum API level of **7**.      
+**Minimum Android SDK**: Amber requires a minimum API level of **7**.      
 
      
 ----------      
