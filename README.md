@@ -33,7 +33,7 @@
 ###Using Gradle, under the dependencies section:       
 
 
-    compile 'com.hanuor.onyx:onyx:1.0.0'    
+    compile 'com.github.hanuor:amber:1.0.0'           
     
 	
 
